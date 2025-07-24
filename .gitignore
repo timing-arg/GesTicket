@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Media and static (if generated)
+media/
+staticfiles/
+
+# Local env settings
+.env
+*.env
+
+# VSCode or PyCharm config (si usás algún editor)
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
+
+# Migrations (opcional si no querés versionarlas aún)
+**/migrations/*.py
+!**/migrations/__init__.py
